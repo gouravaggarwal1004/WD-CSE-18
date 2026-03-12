@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops</title>
+</head>
+<body>
+    <script>
+        //loops in js repeatedly execute a block of code until a specified condition is met
+        //1.for loop Used when the number of iterations is known ahead of time
+       let studetList=["gourav","satyarth","satyam","satyarth","satyarth"];
+       for(let i=0;i<studetList.length;i++){
+            console.log(studetList[i]);
+       }
+       // while loop.............
+       let x=0;
+       while(x<studetList.length){
+        console.log(studetList[x]);
+        x++;
+       }
+       //for ..... : Iterates over the values of an iterable object (including Array, Map, Set, String, etc.).
+       for(let y of studetList){
+        console.log(y);
+       }
+ 
+    </script>
+</body>
+</html>
